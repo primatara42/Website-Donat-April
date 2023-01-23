@@ -1,0 +1,265 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/*Bagian Header Start*/
+header {
+  width: 100%;
+  margin-bottom: 100px;
+  position: fixed;
+  background-color: rgba(26, 17, 16, 0.9);
+  height: 90px;
+  color: #ffb347;
+  z-index: 99999;
+  top: 0px;
+}
+
+/*Bagian Header Left Start*/
+.header-left span {
+  color: #fc6c85;
+}
+
+.header-left {
+  /* background-color: tomato; */
+  margin-left: 25px;
+  margin-top: 25px;
+  float: left;
+}
+
+.header-left h2 {
+  letter-spacing: 4px;
+}
+/*Bagian Header Left End*/
+
+/*Bagian Header Right Start*/
+.header-right li {
+  /* background-color: tomato; */
+  margin-top: 30px;
+  margin-right: 50px;
+  float: right;
+}
+.header-right li a {
+  text-decoration: none;
+  color: #ffb347;
+}
+
+/*Bagian Header Right End*/
+/*Bagian Header End*/
+
+/* Bagian Section Quotes Start */
+.section-quotes {
+  letter-spacing: 3px;
+  margin-top: 0px;
+  text-align: center;
+  padding-top: 150px;
+  height: 200px;
+  background-color: #fbceb1;
+  font-size: 1.5rem;
+}
+
+.section-quotes h2 span {
+  font-size: 2rem;
+  color: #fc6c85;
+  margin-left: 5px;
+}
+
+.section-quotes p {
+  margin-top: 25px;
+}
+/* Bagian Section Quotes End */
+
+/* Bagian Section Donut Start */
+.section-donut {
+  background-color: #ffffe0;
+  height: 600px;
+}
+
+.section-menu-donut {
+  margin: 0 auto;
+  padding-top: 20px;
+  margin-left: 5rem;
+  float: left;
+  text-align: center;
+  width: 25%;
+  margin-top: 30px;
+}
+
+.section-menu-donut h3 {
+  margin-top: 20px;
+}
+
+.section-menu-donut p {
+  margin-top: 20px;
+}
+
+.btn-wrapper {
+  background-color: #ffffe0;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.btn {
+  background-color: tomato;
+  display: block;
+  width: 12%;
+  text-align: center;
+  margin: 0 auto;
+  color: whitesmoke;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.pesan {
+  background-color: rgba(119, 221, 119, 0.8);
+  box-shadow: 0 5px 0 #355e3b;
+}
+
+.pesan:hover {
+  background-color: rgba(119, 221, 119, 1);
+}
+
+.pesan:active {
+  position: relative;
+  box-shadow: 0 0px 0 #355e3b;
+  top: 5px;
+}
+/* Bagian Section Donut End */
+
+/* Bagian Section Saran Kritik Start */
+.section-saran-kritik {
+  width: 100%;
+  padding: 25px 0 25px 0;
+  height: 500px;
+  background-color: beige;
+}
+
+.section-saran-kritik h2 {
+  margin-left: 25px;
+  margin-top: 25px;
+  border-bottom: 2px solid #dee7ec;
+}
+
+.inputform-username {
+  margin-left: 25px;
+  margin-top: 40px;
+}
+
+.username {
+  padding: 10px;
+  border: 2px solid #dee7ec;
+}
+
+.inputform-pesan {
+  margin-left: 25px;
+  margin-top: 40px;
+}
+
+.message {
+  padding: 10px;
+  border: 2px solid #dee7ec;
+}
+
+.inputform-submit {
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.inputform-submit button {
+  padding: 15px 25px;
+  background-color: rgba(119, 221, 119, 0.8);
+  box-shadow: 0 5px 0 #355e3b;
+  border: 0px solid rgba(119, 221, 119, 1);
+  border-radius: 8px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.inputform-submit button:hover {
+  background-color: rgba(119, 221, 119, 1);
+}
+
+.inputform-submit button:active {
+  position: relative;
+  box-shadow: 0 0 0 black;
+  top: 5px;
+}
+/* Bagian Section Saran Kritik End */
+
+/* Bagian Section Footer Start */
+.footer {
+  width: 100%;
+  height: 125px;
+  background-color: rgba(0, 33, 71, 0.8);
+  padding-bottom: 25px;
+}
+/* Bagian Section Footer End */
+
+/* Bagian Section Footer Left Start */
+.footer-left {
+  /* background-color: blue; */
+  color: wheat;
+  margin-left: 25px;
+  margin-top: 25px;
+  float: left;
+  width: 20%;
+}
+
+.footer-left h2 {
+  letter-spacing: 4px;
+}
+
+.footer-left span {
+  color: #fc6c85;
+}
+/* Bagian Section Footer Left End */
+
+/* Bagian Section Footer Right Start */
+.footer-right {
+  color: wheat;
+  float: right;
+  margin-top: 25px;
+  margin-right: 25px;
+}
+
+.footer-right li a {
+  color: wheat;
+}
+/* Bagian Section Footer Right End */
+
+/* Bagian Section Footer Social Media Start */
+.footer-sosmed {
+  background-color: rgba(0, 33, 71, 0.8);
+  padding: 25px;
+  color: wheat;
+  height: 100px;
+}
+
+.list-sosmed {
+  margin-top: 25px;
+  font-size: 200%;
+}
+
+.list-sosmed a {
+  margin-right: 25px;
+  float: left;
+  color: wheat;
+}
+
+/* Bagian Section Footer Social Media End */
